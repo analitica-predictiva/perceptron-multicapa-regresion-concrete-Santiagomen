@@ -125,7 +125,7 @@ def pregunta_04():
     # y los siguientes parámetros adicionales:
     #  * Validación cruzada con 5 particiones
     #  * Compare modelos usando r^2
-     gridsearchcv = GridSearchCV(
+    gridsearchcv = GridSearchCV(
         estimator=estimator,
         param_grid=param_grid,
         cv = 5,  
